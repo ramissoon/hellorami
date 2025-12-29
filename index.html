@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Ramissou N'guessan</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" href="portfolio-professionnel.png">
+    <style>
+        .gradient-text {
+            background: linear-gradient(90deg, #d4002d, #4a90e2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .hero-bg {
+            background: radial-gradient(circle at top right, rgba(212, 0, 45, 0.1), transparent);
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body class="bg-slate-50 text-slate-900 font-sans selection:bg-red-200">
+
+    <nav class="fixed w-full z-50 bg-white/80 backdrop-blur-md border-b border-slate-100">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <span class="font-bold text-xl tracking-tighter"> Portfolio |<span class="text-red-600"> Ramissou N'guessan</span></span>
+            <div class="space-x-8 hidden md:block">
+                <a href="#about" class="hover:text-red-600 transition">À propos de moi</a>
+                <a href="#timeline" class="hover:text-red-600 transition">Parcours</a>
+                <a href="#skills" class="hover:text-red-600 transition">Compétences</a>
+                <a href="#projects" class="hover:text-red-600 transition">Projets</a>
+                <a href="#contact" class="bg-red-600 text-white px-5 py-2 rounded-full hover:bg-red-700 transition">Contacts</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="h-screen flex items-center justify-center hero-bg px-6">
+        <div class="text-center" data-aos="fade-up" data-aos-duration="1000">
+            <span class="uppercase tracking-[0.3em] text-sm font-semibold text-slate-500">Étudiant PGE1 @ emlyon business school</span>
+            <h1 class="text-5xl md:text-7xl font-black mt-4 mb-6">
+                RAMISSOU<span class="gradient-text italic"> N'GUESSAN</span>
+            </h1>
+            <p class="text-xl text-slate-600 max-w-2xl mx-auto leading-relaxed text-justify text-justify-auto">
+                Passionné par la technologie, la stratégie et le football. En quête de nouveaux défis au sein de l'écosystème entrepreneurial. Actuellement à la recherche d'un <em>stage</em> de découverte de Juillet à Décembre 2026.
+            </p>
+            <div class="mt-10">
+                <a href="#projects" class="border-2 border-slate-900 px-8 py-3 rounded-full font-bold hover:bg-slate-900 hover:text-white transition-all">Voir mes réalisations</a>
+            </div>
+        </div>
+        <div class="mt-10 flex flex-col md:flex-row items-center justify-center gap-6">
+    <a href="mon_cv.pdf" download class="group flex items-center gap-3 bg-white border-2 border-slate-900 px-8 py-3 rounded-full font-bold hover:bg-slate-50 transition-all">
+        <span>Télécharger mon CV</span>
+        <i class="fa-solid fa-download group-hover:translate-y-1 transition-transform duration-300"></i>
+    </a>
+</div>
+    </header>
+    <section id="about" class="py-24 bg-white">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-16 items-center">
+                <div data-aos="fade-right">
+                    <div class="relative inline-block">
+                        <div class="w-64 h-80 bg-slate-200 rounded-2xl overflow-hidden shadow-2xl rotate-3 hover:rotate-0 transition-transform duration-500">
+                            <div class="w-full h-full bg-gradient-to-tr from-red-600 to-red-400 flex items-center justify-center text-white italic text-sm p-10 text-center">
+                                <img src="mon-image.jpg" alt="Ramissou N'guessan">
+                            </div>
+                        </div>
+                        <div class="absolute -bottom-6 -right-6 w-32 h-32 bg-red-600 rounded-full flex items-center justify-center text-white font-bold text-center leading-tight -rotate-12 border-4 border-white">
+                            1re Année PGE <br> emlyon business school
+                        </div>
+                    </div>
+                </div>
+                
+                <div data-aos="fade-left">
+                    <h2 class="text-4xl font-black mb-6 italic uppercase tracking-tighter">A propos de <span class="text-red-600">Moi</span></h2>
+                    <p class="text-lg text-slate-600 mb-8 leading-relaxed text-justify text-justify-auto">
+                       Je m'appelle Ramissou N'guessan. Je suis ivoirien. J'aime le football et la découverte, ce qui justifie mon parcours à l'international, notamment au Maroc et en France. 
+                    </p>
+                    <p class="text-lg text-slate-600 mb-6 leading-relaxed text-justify text-justify-auto">
+                       Actuellement étudiant en première année du Programme Grande École à l'emlyon business school, j'évolue dans un environnement qui cultive l'esprit "Early Maker" ( la formation d'individus capables de prendre en main leur destin et d'innover. Cela inclut des compétences en réflexion et en action, en passant du "Do it Yourself" au "Do it Together".)
+                       Je suis attiré par les secteurs de l'audit, du contrôle et de la finance. A long terme, j'envisage d'entreprendre.</p>
+                    
+                    <div class="flex gap-4">
+                        <div class="border-l-4 border-red-600 pl-4">
+                            <span class="block font-bold text-xl text-slate-900">Curiosité</span>
+                            <span class="text-sm text-slate-500 italic text-uppercase">Toujours en veille</span>
+                        </div>
+                        <div class="border-l-4 border-red-600 pl-4">
+                            <span class="block font-bold text-xl text-slate-900">Action</span>
+                            <span class="text-sm text-slate-500 italic text-uppercase">Orienté résultats</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="timeline" class="py-24 bg-white relative overflow-hidden">
+    <div class="max-w-4xl mx-auto px-6">
+        <h2 class="text-3xl font-black mb-16 text-center italic uppercase" data-aos="fade-up">Mon <span class="text-red-600">Parcous</span></h2>
+        
+        <div class="relative border-l-2 border-slate-100 ml-4 md:ml-0 md:left-1/2">
+            <div class="mb-12 relative" data-aos="fade-left">
+                <div class="absolute -left-[9px] md:-left-[9px] w-4 h-4 rounded-full bg-red-600 shadow-[0_0_15px_rgba(212,0,45,0.5)]"></div>
+                <div class="ml-8 md:ml-12">
+                    <span class="text-red-600 font-bold text-sm uppercase tracking-widest">Depuis 2025</span>
+                    <h3 class="text-2xl font-bold mt-1">emlyon business school - Lyon</h3>
+                    <p class="text-slate-500 font-medium italic">Programme Grande École (PGE)</p>
+                    <p class="text-slate-600 mt-2 max-w-md">Apprentissage des fondamentaux du business, engagement associatif et développement de l'esprit "Early Maker".</p>
+                </div>
+            </div>
+
+            <div class="mb-12 relative" data-aos="fade-right">
+                <div class="absolute -left-[9px] w-4 h-4 rounded-full bg-slate-300"></div>
+                <div class="ml-8 md:ml-12">
+                    <span class="text-slate-400 font-bold text-sm uppercase tracking-widest">2022 — 2025</span>
+                    <h3 class="text-2xl font-bold mt-1">ESTEM - Casablanca</h3>
+                    <p class="text-slate-500 font-medium italic"> Classe Préparatoire ECT</p>
+                    <p class="text-slate-600 mt-2 max-w-md ">Développement de la résilience, capacité de travail intense et esprit de synthèse pour les concours.</p>
+                </div>
+            </div>
+
+            <div class="relative" data-aos="fade-left">
+                <div class="absolute -left-[9px] w-4 h-4 rounded-full bg-slate-300"></div>
+                <div class="ml-8 md:ml-12">
+                    <span class="text-slate-400 font-bold text-sm uppercase tracking-widest">2022</span>
+                    <h3 class="text-2xl font-bold mt-1">Collège Henri Poincaré - Bouaké</h3>
+                    <p class="text-slate-500 font-medium italic">Baccalauréat Scientifique - Mention Très Bien</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <section id="skills" class="py-24 bg-slate-50">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-3xl font-bold italic mb-4">Mes Compétences</h2>
+                <div class="w-20 h-1 bg-red-600 mx-auto"></div>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-3xl shadow-sm border border-slate-100 hover:shadow-xl transition-shadow" data-aos="fade-up" data-aos-delay="100">
+                    <div class="text-red-600 mb-6 text-3xl"><i class="fa-solid fa-chart-line"></i></div>
+                    <h3 class="font-bold text-xl mb-4">Business & Stratégie</h3>
+                    <ul class="space-y-3 text-slate-600">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-green-500 text-xs"></i> Analyse de Marché</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-green-500 text-xs"></i> Business Planning</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-green-500 text-xs"></i> Comptabilité / Finance</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-8 rounded-3xl shadow-sm border border-slate-100 hover:shadow-xl transition-shadow" data-aos="fade-up" data-aos-delay="200">
+                    <div class="text-blue-600 mb-6 text-3xl"><i class="fa-solid fa-laptop-code"></i></div>
+                    <h3 class="font-bold text-xl mb-4">Outils & Digital</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-slate-100 rounded-lg text-xs font-bold tracking-tight">EXCEL</span>
+                        <span class="px-3 py-1 bg-slate-100 rounded-lg text-xs font-bold tracking-tight">PYTHON</span>
+                        <span class="px-3 py-1 bg-slate-100 rounded-lg text-xs font-bold tracking-tight">CANVA</span>
+                        <span class="px-3 py-1 bg-slate-100 rounded-lg text-xs font-bold tracking-tight">NOTION</span>
+                        <span class="px-3 py-1 bg-slate-100 rounded-lg text-xs font-bold tracking-tight">POWERPOINT</span>
+                    </div>
+                </div>
+
+                <div class="bg-white p-8 rounded-3xl shadow-sm border border-slate-100 hover:shadow-xl transition-shadow" data-aos="fade-up" data-aos-delay="300">
+                    <div class="text-purple-600 mb-6 text-3xl"><i class="fa-solid fa-comments"></i></div>
+                    <h3 class="font-bold text-xl mb-4">Soft Skills</h3>
+                    <div class="space-y-4">
+                        <div>
+                            <div class="flex justify-between mb-1 text-sm font-bold">
+                                <span>Esprit d'équipe</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="w-full bg-slate-100 h-2 rounded-full">
+                                <div class="bg-purple-600 h-2 rounded-full" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1 text-sm font-bold">
+                                <span>Adaptabilité</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="w-full bg-slate-100 h-2 rounded-full">
+                                <div class="bg-purple-600 h-2 rounded-full" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1 text-sm font-bold">
+                                <span>Gestion de temps</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="w-full bg-slate-100 h-2 rounded-full">
+                                <div class="bg-purple-600 h-2 rounded-full" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-24 bg-slate-900 text-white">
+    <div class="max-w-6xl mx-auto px-6">
+        <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
+            <h2 class="text-4xl font-black italic uppercase tracking-tighter" data-aos="fade-right">
+                Mes Projets & <span class="text-red-500 underline decoration-2 underline-offset-8">Engagement</span>
+            </h2>
+            <p class="text-slate-400 max-w-sm text-right italic border-r-2 border-red-500 pr-4">"Ne pas subir, mais créer le mouvement."</p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-10">
+            <div class="group relative bg-slate-800/50 rounded-3xl p-8 border border-slate-700 hover:border-red-500/50 transition-all duration-500" data-aos="zoom-in-up">
+                <div class="absolute top-6 right-8 text-slate-700 group-hover:text-red-500 transition-colors">
+                    <i class="fa-solid fa-arrow-up-right-from-square text-2xl"></i>
+                </div>
+                <span class="text-xs font-bold text-red-500 uppercase tracking-widest bg-red-500/10 px-3 py-1 rounded-full">recherche</span>
+                <h3 class="text-2xl font-bold mt-4 mb-3 group-hover:text-red-400 transition-colors">RECAPSS</h3>
+                <p class="text-slate-400 leading-relaxed mb-6 text-justify text-justify-auto">Avec une équipe de quatres markers, j'ai mené un projet de recherche approfondi axé sur la perception sociale des victimes de harcèlement. L'étude a exploré l'impact de différentes stratégies de communication dans les campagnes de sensibilisation du public, dans le but de redéfinir l'identité des victimes, qui passent de « victimes » passives à « survivantes » autonomes. Le projet a utilisé des méthodes expérimentales, notamment l'exposition contrôlée à des publicités, et a interrogé les participants afin de mesurer leurs réactions émotionnelles, leurs perceptions et leurs intentions d'agir. Les résultats ont mis en évidence le pouvoir de la communication positive pour réduire la stigmatisation et encourager les actions sociales de soutien. Cette recherche contribue à la compréhension de la manière dont les médias et les messages publics peuvent remodeler les attitudes sociétales, promouvoir l'autonomisation et favoriser le changement social.</p>
+                <div class="flex flex-wrap gap-2">
+                    <span class="text-[10px] bg-slate-700 px-2 py-1 rounded">Recherche</span>
+                    <span class="text-[10px] bg-slate-700 px-2 py-1 rounded">Esprit d'équipe</span>
+                    <span class="text-[10px] bg-slate-700 px-2 py-1 rounded">E-learning</span>
+                </div>
+            </div>
+
+            <div class="group relative bg-slate-800/50 rounded-3xl p-8 border border-slate-700 hover:border-blue-500/50 transition-all duration-500" data-aos="zoom-in-up" data-aos-delay="200">
+                <div class="absolute top-6 right-8 text-slate-700 group-hover:text-blue-500 transition-colors">
+                    <i class="fa-solid fa-hand-holding-heart text-2xl"></i>
+                </div>
+                <span class="text-xs font-bold text-blue-500 uppercase tracking-widest bg-blue-500/10 px-3 py-1 rounded-full">Engagement</span>
+                <h3 class="text-2xl font-bold mt-4 mb-3 group-hover:text-blue-400 transition-colors">Programme Engagement Responsable</h3>
+                <p class="text-slate-400 leading-relaxed mb-6 text-justify text-justify-auto">Le Programme d'Engagement Responsable à emlyon business school est un dispositif d'apprentissage expérientiel unique en son genre où chaque étudiant s'engage dans une mission de bénévolat à impact social et/ou environnemental auprès d'associations. Dans ce cadre, je me suis engagé auprès de l'Adie (Association pour le Droit à l'Initiative Économique). </p>
+                <div class="flex flex-wrap gap-2">
+                    <span class="text-[10px] bg-slate-700 px-2 py-1 rounded">Communication</span>
+                    <span class="text-[10px] bg-slate-700 px-2 py-1 rounded">Bénévolat</span>
+                    <span class="text-[10px] bg-slate-700 px-2 py-1 rounded">Impact social</span>
+                </div>
+            </div>
+             <div class="group relative bg-slate-800/50 rounded-3xl p-8 border border-slate-700 hover:border-green-500/50 transition-all duration-500" data-aos="zoom-in-up">
+                <div class="absolute top-6 right-8 text-slate-700 group-hover:text-green-500 transition-colors">
+                    <i class="fa-solid fa-arrow-up-right-from-square text-2xl"></i>
+                </div>
+                <span class="text-xs font-bold text-green-500 uppercase tracking-widest bg-green-500/10 px-3 py-1 rounded-full">recherche & Conseil</span>
+                <h3 class="text-2xl font-bold mt-4 mb-3 group-hover:text-green-400 transition-colors">Futurs Durables</h3>
+                <p class="text-slate-400 leading-relaxed mb-6 text-justify text-justify-auto"> Futurs Durables est une formation qui vise à former les étudiants à comprendre et à problématiser les enjeux futurs à travers le concept de prospection. Dans ce cadre, avec mon groupe et en collaboration avec Groupe Seb, nous avons travaillé sur la conception et la mise en œuvre de scénarios prospectifs et d’expériences immersives. Cette expérience m'a permis de développer une vision globale des enjeux écologiques et de transformer des idées novatrices en solutions concrètes.</p>
+                <div class="flex flex-wrap gap-2">
+                    <span class="text-[10px] bg-slate-700 px-2 py-1 rounded">Conseil</span>
+                    <span class="text-[10px] bg-slate-700 px-2 py-1 rounded">Stratégie</span>
+                    <span class="text-[10px] bg-slate-700 px-2 py-1 rounded">Innovation</span>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+    <footer id="contact" class="bg-slate-900 text-white py-20 px-6 text-center">
+    <div data-aos="zoom-in">
+        <h2 class="text-4xl font-bold mb-8">Vous souhaitez discuter ?</h2>        
+        <a href="mailto:ramissounguesssan@edu.em-lyon.com" class="text-xl md:text-2xl font-light hover:text-red-400 transition underline underline-offset-8 block mb-12">
+            ramissounguessan@edu.em-lyon.com
+        </a>
+
+        <div class="flex justify-center gap-8 mb-16">
+            <a href="https://www.linkedin.com/in/ramissou-n-guessan" target="_blank" class="group flex flex-col items-center gap-2">
+                <div class="w-14 h-14 flex items-center justify-center rounded-full bg-slate-800 group-hover:bg-[#0077b5] group-hover:-translate-y-2 transition-all duration-300">
+                    <i class="fa-brands fa-linkedin-in text-2xl"></i>
+                </div>
+                <span class="text-[10px] uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-opacity">LinkedIn</span>
+            </a>
+
+            <a href="https://www.instagram.com/soumira001/" target="_blank" class="group flex flex-col items-center gap-2">
+                <div class="w-14 h-14 flex items-center justify-center rounded-full bg-slate-800 group-hover:bg-gradient-to-tr from-[#f9ce34] via-[#ee2a7b] to-[#6228d7] group-hover:-translate-y-2 transition-all duration-300">
+                    <i class="fa-brands fa-instagram text-2xl"></i>
+                </div>
+                <span class="text-[10px] uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-opacity">Instagram</span>
+            </a>
+
+            <a href="https://facebook.com/TON_PROFIL" target="_blank" class="group flex flex-col items-center gap-2">
+                <div class="w-14 h-14 flex items-center justify-center rounded-full bg-slate-800 group-hover:bg-[#1877F2] group-hover:-translate-y-2 transition-all duration-300">
+                    <i class="fa-brands fa-facebook-f text-2xl"></i>
+                </div>
+                <span class="text-[10px] uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-opacity">Facebook</span>
+            </a>
+
+            <a href="https://x.com/TON_PROFIL" target="_blank" class="group flex flex-col items-center gap-2">
+                <div class="w-14 h-14 flex items-center justify-center rounded-full bg-slate-800 group-hover:bg-black group-hover:-translate-y-2 transition-all duration-300 border border-transparent group-hover:border-slate-700">
+                    <i class="fa-brands fa-x-twitter text-2xl"></i>
+                </div>
+                <span class="text-[10px] uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-opacity">Twitter</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="mt-10 pt-10 border-t border-slate-800 text-slate-500 text-sm italic">
+        © 2025 — Ramissou N'guessan - Étudiant emlyon — Early Maker Spirit
+    </div>
+</footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ once: false, mirror: true});
+    </script>
+</body>
+</html>
